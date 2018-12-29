@@ -5,5 +5,7 @@ project 'RxMVVMDemo'
 
 target 'RxMVVMDemo' do
 	pod 'RxRealm'
+	pod 'RxCocoa'
+	pod 'RxDataSources'
 	pod 'RxAlamofire'
 end

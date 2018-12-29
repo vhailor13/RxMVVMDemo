@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570D042A21D75C5900E0DCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D042621D75C5900E0DCFB /* ViewController.swift */; };
 		570D042B21D75C5900E0DCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D042721D75C5900E0DCFB /* AppDelegate.swift */; };
 		570D043D21D773B800E0DCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570D043821D773B800E0DCFB /* Assets.xcassets */; };
 		570D043E21D773B800E0DCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570D043921D773B800E0DCFB /* LaunchScreen.storyboard */; };
 		570D043F21D773B800E0DCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570D043B21D773B800E0DCFB /* Main.storyboard */; };
+		570D044221D79C0400E0DCFB /* FeedsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D044121D79C0300E0DCFB /* FeedsListViewController.swift */; };
+		570D044421D79C5900E0DCFB /* FeedsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D044321D79C5900E0DCFB /* FeedsListViewModel.swift */; };
+		570D044721D7A82100E0DCFB /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D044621D7A82100E0DCFB /* DBService.swift */; };
+		570D044A21D7A88000E0DCFB /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D044921D7A88000E0DCFB /* Subscription.swift */; };
+		570D044D21D7BBDE00E0DCFB /* FeedsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D044C21D7BBDE00E0DCFB /* FeedsListCell.swift */; };
 		AACFB39BB6AE2823B1C1D9E1 /* Pods_RxMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB2729BECFC21C9FB98F237 /* Pods_RxMVVMDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +23,16 @@
 		2EA283D635D3FF6E623D7121 /* Pods-RxMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVMDemo/Pods-RxMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1AB7088E8C34C1A2C6AFA9 /* Pods-RxMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVMDemo/Pods-RxMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		570D040F21D75B6900E0DCFB /* RxMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		570D042621D75C5900E0DCFB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		570D042721D75C5900E0DCFB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		570D043621D75F6500E0DCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570D043821D773B800E0DCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570D043A21D773B800E0DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		570D043C21D773B800E0DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570D044121D79C0300E0DCFB /* FeedsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsListViewController.swift; sourceTree = "<group>"; };
+		570D044321D79C5900E0DCFB /* FeedsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsListViewModel.swift; sourceTree = "<group>"; };
+		570D044621D7A82100E0DCFB /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		570D044921D7A88000E0DCFB /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		570D044C21D7BBDE00E0DCFB /* FeedsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsListCell.swift; sourceTree = "<group>"; };
 		EBB2729BECFC21C9FB98F237 /* Pods_RxMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,7 +90,7 @@
 		570D042521D75C5900E0DCFB /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				570D042621D75C5900E0DCFB /* ViewController.swift */,
+				570D044021D79C0300E0DCFB /* FeedsList */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -90,16 +98,9 @@
 		570D042821D75C5900E0DCFB /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				570D042921D75C5900E0DCFB /* FeedsList */,
+				570D044521D7A7ED00E0DCFB /* DB */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		570D042921D75C5900E0DCFB /* FeedsList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FeedsList;
 			sourceTree = "<group>";
 		};
 		570D043721D773B800E0DCFB /* Resources */ = {
@@ -111,6 +112,41 @@
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
+		};
+		570D044021D79C0300E0DCFB /* FeedsList */ = {
+			isa = PBXGroup;
+			children = (
+				570D044B21D7BBC100E0DCFB /* Views */,
+				570D044121D79C0300E0DCFB /* FeedsListViewController.swift */,
+				570D044321D79C5900E0DCFB /* FeedsListViewModel.swift */,
+			);
+			path = FeedsList;
+			sourceTree = "<group>";
+		};
+		570D044521D7A7ED00E0DCFB /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				570D044821D7A87200E0DCFB /* Entities */,
+				570D044621D7A82100E0DCFB /* DBService.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		570D044821D7A87200E0DCFB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				570D044921D7A88000E0DCFB /* Subscription.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		570D044B21D7BBC100E0DCFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				570D044C21D7BBDE00E0DCFB /* FeedsListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
 		};
 		E96682BB209158C1818F878C /* Frameworks */ = {
 			isa = PBXGroup;
@@ -197,18 +233,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVMDemo/Pods-RxMVVMDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -242,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570D044221D79C0400E0DCFB /* FeedsListViewController.swift in Sources */,
+				570D044D21D7BBDE00E0DCFB /* FeedsListCell.swift in Sources */,
+				570D044721D7A82100E0DCFB /* DBService.swift in Sources */,
+				570D044421D79C5900E0DCFB /* FeedsListViewModel.swift in Sources */,
 				570D042B21D75C5900E0DCFB /* AppDelegate.swift in Sources */,
-				570D042A21D75C5900E0DCFB /* ViewController.swift in Sources */,
+				570D044A21D7A88000E0DCFB /* Subscription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +448,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,7 +469,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
